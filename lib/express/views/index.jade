@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1 Monster
+  #donut(data-percent=0)
+  br
+  br
+  .logs
+
+append scripts
+  script(src="/js/jquery.donutchart.js")
+  script
+    window.process = !{process}
+  script(src="/js/monster.js")

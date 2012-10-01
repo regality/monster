@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #dddddd;
+  background: #222222;
+  margin: 0px auto;
+}
+
+.content {
+  width: 500px;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.logs {
+  font-family: "Lucida Console", monospace;
+  text-align: left;
+}
